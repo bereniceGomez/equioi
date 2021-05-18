@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, inicial-sacale=1.0">
+    <meta http-equiv="X-UA.Compatible" content="ie=edge">
+    <title>
+        <%= title %>
+    </title>
+    <%-include ('partials/head.html') %>
+</head>
+
+<body class="bodylogin">
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <%-include('partials/navigation.html') %>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-sm-4 offset-md-4">
+                    <div class="card">
+                        <div class="card-header bg-dark text-white text-center">
+                            <h3 class="titulo">Registarse</h3>
+                        </div>
+                        <div class="card-body">
+                            <form action="">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="Nombre" class="form-label">Nombre</label>
+                                        <input type="Nombre" class="form-control" id="nombre" placeholder="Nombre">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="apellidop" class="form-label">Apelido Paterno</label>
+                                        <input type="Apellido Paterno" class="form-control" id="apellidop" placeholder="Apellido Paterno">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Apellido" class="form-label">Apellido Materno</label>
+                                        <input type="ApellidoM" class="form-control" id="Apellido" placeholder="Apellido Materno">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Email1" class="form-label">Correo</label>
+                                        <input type="correo" class="form-control" id="Email1" placeholder="Correo">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Password1" class="form-label">Nueva contraseña</label>
+                                        <input type="password" class="form-control" id="Password1" placeholder="Contraseña">
+                                        <div class="mb-3">
+                                            <label for="Password1" class="form-label">Repetir contraseña</label>
+                                            <input type="password" class="form-control" id="Password1" placeholder="Contraseña">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Aceptar los terminos</label>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary btn-block text-center">Registrar</button>
+
+
+
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, inicial-sacale=1.0">
+    <meta http-equiv="X-UA.Compatible" content="ie=edge">
+    <title>INICIO DE SESION</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <title>
+        <%= title %>
+    </title>
+    <%-include ('partials/head.html') %>
+</head>
+
+<body class="bodylogin">
+    <%-include('partials/navigation.html') %>
+        <div class="login-box">
+            <h1>INICIAR SESIÓN</h1>
+            <form>
+                <!-- USERNAME INPUT -->
+                <label for="USUARIO" id="letra">USUARIO</label>
+                <input type="text" placeholder="INGRESA USUARIO">
+                <!-- PASSWORD INPUT -->
+                <label for="password" id="letra">PASSWORD</label>
+                <input type="password" placeholder="INGRESA PASSWORD">
+                <a href="index"><input type="submit" value="INICIAR SESION"></a>
+
+                <a href="#">¿OLVIDASTE TU CONTRASEÑA?</a><br>
+                <a href="registro">¿NO TIENES UNA CUENTA?</a>
+            </form>
+        </div>
+
+
+</body>
+
+
+
+</html>
